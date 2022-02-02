@@ -1,5 +1,73 @@
 h1 {
-	color: red;
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 70% auto;
+  grid-template-columns: auto 70% auto;
+  background-color: #1e1d1d;
+  height: 100px;
+}
+
+.nav-container .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.nav-container .logo img {
+  height: 100px;
+}
+
+.nav-container .links-wrapper {
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.nav-container .links-wrapper a {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin: 0 10px;
+}
+
+.nav-container .links-wrapper a:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.nav-container .profile-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-container .profile-wrapper i {
+  font-size: xx-large;
+  color: white;
+}
+
+.nav-container .profile-wrapper i:hover {
+  cursor: pointer;
+  color: red;
 }
 
 .footer-container {
