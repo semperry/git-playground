@@ -75,15 +75,15 @@ a {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: #00263A;
+	background-color: #EC018B;
 	color: white;
 	text-align: center;
 }
 
 .footer-container .footer-left {
-	display: flex;
+	display: grid;
 	justify-content: space-around;
-	position: left;
+	grid-row-start: 1;
 }
 
 .footer-container .footer-left {
